@@ -1,3 +1,7 @@
 @import './colors.scss';
+@import './fonts.scss';
 
-@import '../components/SideBar/sidebar.scss';
+// Components
+@import '../components/SideBar/sidebar.imports.scss';
+// Pages
+@import '../pages/Home/home.imports.scss'
