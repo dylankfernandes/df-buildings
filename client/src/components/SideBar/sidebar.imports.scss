@@ -5,38 +5,41 @@ $sidebar-padding-vertical: 15px;
   height: 100%;
   width: 15%;
   background-color: $primary-black;
-}
+  .sidebar__header {
+    font-size: 18px;
+    font-family: $montserrat;
+    color: $primary-white;
+    padding: $sidebar-padding-vertical $sidebar-padding-horizontal;
+  }
 
-.sidebar__header {
-  font-size: 18px;
-  font-family: $montserrat;
-  color: $primary-white;
-  padding: $sidebar-padding-vertical $sidebar-padding-horizontal;
-}
-
-.sidebar__list-header {
-  padding: $sidebar-padding-vertical/2 $sidebar-padding-horizontal;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-family: $montserrat;
-  color: $secondary-white;
-}
-
-.sidebar__list {
-  border-top: 1px solid $tertiary-white;
-  padding-bottom: $sidebar-padding-vertical;
-  padding-top: $sidebar-padding-vertical;
-  li {
-    list-style: none;
+  .sidebar__list-header {
     padding: $sidebar-padding-vertical/2 $sidebar-padding-horizontal;
-    &:hover {
-      background-color: #4444ff;
-    }
-    a {
-      color: $primary-white;
-      font-family: $raleway;
-      font-size: 16px;
-      text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: $montserrat;
+    color: $secondary-white;
+  }
+
+  .sidebar__list {
+    border-top: 1px solid $tertiary-white;
+    padding-bottom: $sidebar-padding-vertical;
+    padding-top: $sidebar-padding-vertical;
+
+    li {
+      list-style: none;
+      padding: $sidebar-padding-vertical/2 $sidebar-padding-horizontal;
+
+      &:hover {
+        background-color: #4444ff;
+      }
+
+      a {
+        color: $primary-white;
+        font-family: $raleway;
+        font-size: 16px;
+        text-decoration: none;
+      }
     }
   }
 }
+
