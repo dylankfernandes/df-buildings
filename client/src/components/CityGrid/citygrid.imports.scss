@@ -1,0 +1,9 @@
+.citygrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+  justify-items: center;
+}
