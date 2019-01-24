@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import SideBar from '../../components/SideBar';
-import NavBar from '../../components/NavBar/NavBar';
+import SideBar from '../../components/SideBar/';
+import NavBar from '../../components/NavBar/';
 import CityCard from '../../components/CityCard/';
-import CityGrid from '../../components/CityGrid/CityGrid';
+import CityGrid from '../../components/CityGrid/';
+import Update from '../../components/Update/';
 
 class Home extends Component {
   render() {
@@ -17,6 +18,7 @@ class Home extends Component {
             <CityCard city="New Amsterdam" />
             <CityCard city="Colorado" />
           </CityGrid>
+          <Update />
         </div>
 
       </div>
