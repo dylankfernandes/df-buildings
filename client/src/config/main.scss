@@ -2,11 +2,11 @@
 @import './universal.scss';
 
 // Components
+@import '../components/Update/update.imports.scss';
 @import '../components/SideBar/sidebar.imports.scss';
 @import '../components/NavBar/navbar.imports.scss';
 @import '../components//CityCard//citycard.imports.scss';
 @import '../components/CityGrid/citygrid.imports.scss';
-@import '../components/Update/update.imports.scss';
 
 // Pages 
 @import '../pages/Home/home.imports.scss';
