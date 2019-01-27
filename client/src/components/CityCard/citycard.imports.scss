@@ -3,14 +3,17 @@
 }
 
 .citycard {
-  box-shadow: 3px 8px 15px 0px rgba(35, 35, 35, 1);
   height: 85px;
-  width: 230px;
   font-family: 'Open Sans';
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   border-radius: 3px;
+  box-shadow: 3px 4px 4px 0px rgba(35, 35, 35, 0.6);
+  transition: all 0.4s;
+  &:hover {
+    box-shadow: 3px 8px 8px 0px rgba(35, 35, 35, 1);
+  }
 }
 
 .citycard__image {

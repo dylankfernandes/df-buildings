@@ -1,0 +1,38 @@
+.building {
+  font-family: $raleway;
+  .building__image {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .building__header {
+    font-family: $montserrat;
+    margin-bottom: 10px;
+  }
+  .building__address {
+    font-size: 16px;
+    color: $primary-gray;
+    margin-bottom: 10px;
+  }
+  .building__footer {
+    font-size: 16px;
+    font-weight: bold;
+    .building__availability {
+      float: left;
+    }
+    .building__available {
+      color: green;
+    }
+    .building__unavailable {
+      color: red;
+    }
+    .building__rent {
+      float: right;
+    }
+  }
+}
