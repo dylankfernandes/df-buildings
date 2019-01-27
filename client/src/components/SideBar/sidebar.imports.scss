@@ -5,6 +5,7 @@ $sidebar-padding-vertical: 15px;
   height: 100%;
   width: 15%;
   background-color: $primary-black;
+  position: fixed;
   .sidebar__header {
     font-size: 18px;
     font-family: $montserrat;
