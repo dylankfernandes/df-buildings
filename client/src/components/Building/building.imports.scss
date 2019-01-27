@@ -1,5 +1,6 @@
 .building {
   font-family: $raleway;
+  box-shadow: 0px 4px 4px 0px rgba(150, 150, 150, 0.6); 
   .building__image {
     height: 200px;
     width: 100%;
@@ -10,29 +11,39 @@
       height: 100%;
     }
   }
-  .building__header {
-    font-family: $montserrat;
-    margin-bottom: 10px;
-  }
-  .building__address {
-    font-size: 16px;
-    color: $primary-gray;
-    margin-bottom: 10px;
-  }
-  .building__footer {
-    font-size: 16px;
-    font-weight: bold;
-    .building__availability {
-      float: left;
+  .building__content {
+    padding-left: 5%;
+    padding-right: 5%;
+    .building__header {
+      font-family: $montserrat;
+      margin-bottom: 10px;
     }
-    .building__available {
-      color: green;
+
+    .building__address {
+      font-size: 16px;
+      color: $primary-gray;
     }
-    .building__unavailable {
-      color: red;
-    }
-    .building__rent {
-      float: right;
+
+    .building__footer {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+
+      .building__availability {
+        float: left;
+      }
+
+      .building__available {
+        color: green;
+      }
+
+      .building__unavailable {
+        color: red;
+      }
+
+      .building__rent {
+        float: right;
+      }
     }
   }
 }

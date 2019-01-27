@@ -24,25 +24,43 @@ class Home extends Component {
           <BuildingGrid>
             <Building
               building="Statue of Liberty"
-              address="New York, NY 10004"
+              address1="New York"
+              address2="NY 10004"
               isAvailable={true}
               rent={37000}
             />
             <Building
               building="Empire State Building"
-              address="20 W 34th St, New York, NY 10001"
+              address1="20 W 34th St"
+              address2="New York, NY 10001"
               isAvailable={false}
               rent={37000}
             />
             <Building
               building="University of Virginia"
-              address="1826 University Ave, Charlottesville, VA 22904"
+              address1="1826 University Ave"
+              address2="Charlottesville, VA 22904"
               isAvailable={true}
               rent={37000}
             />
             <Building
               building="Baltimore Aquarium"
-              address="501 E Pratt St, Baltimore, MD 21202"
+              address1="501 E Pratt St"
+              address2="Baltimore, MD 21202"
+              isAvailable={false}
+              rent={37000}
+            />
+            <Building
+              building="Statue of Liberty"
+              address1="New York"
+              address2="NY 10004"
+              isAvailable={true}
+              rent={37000}
+            />
+            <Building
+              building="Empire State Building"
+              address1="20 W 34th St"
+              address2="New York, NY 10001"
               isAvailable={false}
               rent={37000}
             />
