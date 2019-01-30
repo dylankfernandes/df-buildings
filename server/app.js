@@ -6,7 +6,7 @@ const cors = require('cors')
 
 const app = express()
 
-// connectionString = 'mongodb://dylan:'
+connectionString = 'mongodb://dylan:test123@ds011775.mlab.com:11775/df-buildings'
 mongoose.connect(connectionString)
 mongoose.connection.once('open', () => {
   console.log('connected to database')
