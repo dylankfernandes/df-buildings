@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const Schema = mongoose.Schema;
+const Schema = mongoose.Schema
 
 const buildingSchema = new Schema({
   name: String,
@@ -8,6 +8,6 @@ const buildingSchema = new Schema({
   buildingType: String,
   rating: Number,
   cityId: String,
-});
+})
 
-module.exports = mongoose.model('Building', buildingSchema);
+module.exports = mongoose.model('Building', buildingSchema)
