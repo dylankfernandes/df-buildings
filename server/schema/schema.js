@@ -42,7 +42,7 @@ const CityType = new GraphQLObjectType({
     cities: {
       type: GraphQLList(BuildingType),
       resolve(parent, args) {
-        return Building.find({ authorId: parent.id });
+        return Building.find({ authorId: parent.id })
       }
     }
   })
