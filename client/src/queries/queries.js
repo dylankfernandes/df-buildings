@@ -31,7 +31,7 @@ export const addBuildingMutation = gql`
   }
 `;
 
-export const addCitiesMutation = gql`
+export const addCityMutation = gql`
   mutation($name: String!, $location: String) {
     addCity(name: $name, location: $location) {
       name

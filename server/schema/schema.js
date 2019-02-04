@@ -111,6 +111,14 @@ const Mutation = new GraphQLObjectType({
       args: {
         name: { type: new GraphQLNonNull(GraphQLString) },
         location: { type: GraphQLString }
+      },
+      resolve(parent, args) {
+        let city = new City({
+          name: args.name,
+          location: args.location
+        })
+
+        return city.save()
       }
     }
   }
