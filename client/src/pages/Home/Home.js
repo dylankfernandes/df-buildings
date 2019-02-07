@@ -15,10 +15,7 @@ class Home extends Component {
         <div className="home__content">
           <NavBar />
           <CityGrid>
-            <CityCard city="New York" />
-            <CityCard city="Paris" />
-            <CityCard city="New Amsterdam" />
-            <CityCard city="Colorado" />
+
           </CityGrid>
           <Update />
           <BuildingGrid>
